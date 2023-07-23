@@ -1,0 +1,156 @@
+[
+  {
+    "model": "inventory.category",
+    "pk": 1,
+    "fields": {
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "parent": null,
+      "is_active": true,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 2,
+    "fields": {
+      "name": "Men's Clothing",
+      "slug": "mens-clothing",
+      "parent": null,
+      "is_active": true,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 2,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 3,
+    "fields": {
+      "name": "Women's Clothing",
+      "slug": "womens-clothing",
+      "parent": null,
+      "is_active": true,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 3,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 4,
+    "fields": {
+      "name": "Shoes",
+      "slug": "shoes",
+      "parent": null,
+      "is_active": true,
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 4,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 5,
+    "fields": {
+      "name": "Bags",
+      "slug": "bags",
+      "parent": null,
+      "is_active": true,
+      "lft": 9,
+      "rght": 10,
+      "tree_id": 5,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 6,
+    "fields": {
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "parent": null,
+      "is_active": true,
+      "lft": 11,
+      "rght": 12,
+      "tree_id": 6,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 7,
+    "fields": {
+      "name": "Electrons",
+      "slug": "electrons",
+      "parent": null,
+      "is_active": true,
+      "lft": 13,
+      "rght": 14,
+      "tree_id": 7,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 8,
+    "fields": {
+      "name": "Kitchen and Home",
+      "slug": "kitchen-and-home",
+      "parent": null,
+      "is_active": true,
+      "lft": 15,
+      "rght": 16,
+      "tree_id": 8,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 9,
+    "fields": {
+      "name": "Sports and Outdoors",
+      "slug": "sports-and-outdoors",
+      "parent": null,
+      "is_active": true,
+      "lft": 17,
+      "rght": 18,
+      "tree_id": 9,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 12,
+    "fields": {
+      "name": "Books",
+      "slug": "books",
+      "parent": null,
+      "is_active": true,
+      "lft": 19,
+      "rght": 20,
+      "tree_id": 10,
+      "level": 0
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 11,
+    "fields": {
+      "name": "Beauty",
+      "slug": "beauty",
+      "parent": null,
+      "is_active": true,
+      "lft": 21,
+      "rght": 22,
+      "tree_id": 11,
+      "level": 0
+    }
+  }
+]

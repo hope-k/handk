@@ -1,0 +1,306 @@
+[
+    {
+        "model": "inventory.productattributevalue",
+        "id": "1",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "XXL"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "2",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "XL"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "3",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "black"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "4",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "150g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "5",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "250g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "6",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "White"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "7",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "Medium"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "8",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "XL"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "9",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "15x10x5 cm"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "10",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "20x15x8 cm"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "11",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Glass"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "12",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Leather"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "13",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Metallic"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "14",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "300g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "15",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "Red"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "16",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "Large"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "17",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "25x15x10 cm"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "18",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Plastic"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "19",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Aluminum"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "20",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "75g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "21",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "Blue"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "22",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "Extra Small"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "23",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "5x5x5 cm"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "24",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "500g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "25",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "Silver"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "26",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "Extra Large"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "27",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "30x20x15 cm"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "28",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Rubber"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "29",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Ceramic"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "30",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "400g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "31",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "Gold"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "32",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "XXL"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "33",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "40x30x20 cm"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "34",
+        "fields": {
+            "product_attribute": "5",
+            "attribute_value": "Wood"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "35",
+        "fields": {
+            "product_attribute": "1",
+            "attribute_value": "50g"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "36",
+        "fields": {
+            "product_attribute": "2",
+            "attribute_value": "Green"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "37",
+        "fields": {
+            "product_attribute": "3",
+            "attribute_value": "Extra Extra Small"
+        }
+    },
+    {
+        "model": "inventory.productattributevalue",
+        "id": "38",
+        "fields": {
+            "product_attribute": "4",
+            "attribute_value": "2x2x2 cm"
+        }
+    }
+]

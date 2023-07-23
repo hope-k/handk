@@ -1,0 +1,32 @@
+[
+  {
+    "model": "auth.user",
+    "fields": {
+      "email": "testuser1@gmail.com",
+      "password": "pbkdf2_sha256$390000$IhZ5VXOZhnyMUtHLztoUrS$hwcN1hJCs2dz7zsrFiuGQz7e1CLCqZtDvTkyB4NRyEU=",
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true
+    }
+  },   
+  {
+    "model": "auth.user",
+    "fields": {
+      "email": "testuser2@gmail.com",
+      "password": "pbkdf2_sha256$390000$IhZ5VXOZhnyMUtHLztoUrS$hwcN1hJCs2dz7zsrFiuGQz7e1CLCqZtDvTkyB4NRyEU=",
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true
+    }
+  },   
+  {
+    "model": "auth.user",
+    "fields": {
+      "email": "hope@gmail.com",
+      "password": "pbkdf2_sha256$390000$IhZ5VXOZhnyMUtHLztoUrS$hwcN1hJCs2dz7zsrFiuGQz7e1CLCqZtDvTkyB4NRyEU=",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true
+    }
+  } 
+]

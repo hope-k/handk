@@ -1,0 +1,590 @@
+[
+    {
+        "model": "inventory.media",
+        "id": "1",
+        "fields": {
+            "product_inventory": "1",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "2",
+        "fields": {
+            "product_inventory": "2",
+            "image": "images/default.jpghttps://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "3",
+        "fields": {
+            "product_inventory": "3",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "4",
+        "fields": {
+            "product_inventory": "4",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "5",
+        "fields": {
+            "product_inventory": "5",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "6",
+        "fields": {
+            "product_inventory": "6",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "7",
+        "fields": {
+            "product_inventory": "7",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "8",
+        "fields": {
+            "product_inventory": "8",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "9",
+        "fields": {
+            "product_inventory": "9",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "10",
+        "fields": {
+            "product_inventory": "10",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "11",
+        "fields": {
+            "product_inventory": "11",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "12",
+        "fields": {
+            "product_inventory": "12",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "13",
+        "fields": {
+            "product_inventory": "13",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "14",
+        "fields": {
+            "product_inventory": "14",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "15",
+        "fields": {
+            "product_inventory": "15",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "16",
+        "fields": {
+            "product_inventory": "16",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "17",
+        "fields": {
+            "product_inventory": "17",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "18",
+        "fields": {
+            "product_inventory": "18",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "19",
+        "fields": {
+            "product_inventory": "19",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "20",
+        "fields": {
+            "product_inventory": "20",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "21",
+        "fields": {
+            "product_inventory": "21",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "22",
+        "fields": {
+            "product_inventory": "22",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "23",
+        "fields": {
+            "product_inventory": "23",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "24",
+        "fields": {
+            "product_inventory": "24",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "25",
+        "fields": {
+            "product_inventory": "25",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "26",
+        "fields": {
+            "product_inventory": "26",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "27",
+        "fields": {
+            "product_inventory": "27",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "28",
+        "fields": {
+            "product_inventory": "28",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "29",
+        "fields": {
+            "product_inventory": "29",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "30",
+        "fields": {
+            "product_inventory": "30",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "31",
+        "fields": {
+            "product_inventory": "31",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "32",
+        "fields": {
+            "product_inventory": "32",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "33",
+        "fields": {
+            "product_inventory": "33",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "34",
+        "fields": {
+            "product_inventory": "34",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "35",
+        "fields": {
+            "product_inventory": "35",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "36",
+        "fields": {
+            "product_inventory": "36",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "37",
+        "fields": {
+            "product_inventory": "37",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "38",
+        "fields": {
+            "product_inventory": "38",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "39",
+        "fields": {
+            "product_inventory": "39",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "40",
+        "fields": {
+            "product_inventory": "40",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "41",
+        "fields": {
+            "product_inventory": "41",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "42",
+        "fields": {
+            "product_inventory": "42",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "43",
+        "fields": {
+            "product_inventory": "43",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "44",
+        "fields": {
+            "product_inventory": "44",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "45",
+        "fields": {
+            "product_inventory": "45",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "46",
+        "fields": {
+            "product_inventory": "46",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "47",
+        "fields": {
+            "product_inventory": "47",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "48",
+        "fields": {
+            "product_inventory": "48",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    },
+    {
+        "model": "inventory.media",
+        "id": "49",
+        "fields": {
+            "product_inventory": "49",
+            "image": "https://res.cloudinary.com/hopekumordzie/image/upload/v1679112165/default.png",
+            "alt_text": "a default image solid color",
+            "is_feature": true,
+            "created_at": "2021-09-01T13:20:30+03:00",
+            "updated_at": "2021-09-01T13:20:30+03:00"
+        }
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "python.formatting.provider": "autopep8",
+    /// fix line too long (141 > 79 characters)Flake8(E501)
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+}

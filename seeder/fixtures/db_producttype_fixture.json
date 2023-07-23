@@ -1,0 +1,849 @@
+[
+    {
+        "model": "inventory.producttype",
+        "id": "1",
+        "fields": {
+            "name": "shoes"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "2",
+        "fields": {
+            "name": "clothing"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "3",
+        "fields": {
+            "name": "accessories"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "4",
+        "fields": {
+            "name": "smart devices"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "5",
+        "fields": {
+            "name": "home decor"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "6",
+        "fields": {
+            "name": "books"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "7",
+        "fields": {
+            "name": "toys"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "8",
+        "fields": {
+            "name": "sports equipment"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "9",
+        "fields": {
+            "name": "beauty products"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "10",
+        "fields": {
+            "name": "kitchen appliances"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "11",
+        "fields": {
+            "name": "furniture"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "12",
+        "fields": {
+            "name": "jewelry"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "13",
+        "fields": {
+            "name": "art supplies"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "14",
+        "fields": {
+            "name": "office supplies"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "15",
+        "fields": {
+            "name": "musical instruments"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "16",
+        "fields": {
+            "name": "garden tools"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "17",
+        "fields": {
+            "name": "baby products"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "18",
+        "fields": {
+            "name": "pet supplies"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "19",
+        "fields": {
+            "name": "healthcare products"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "20",
+        "fields": {
+            "name": "luggage"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "21",
+        "fields": {
+            "name": "car accessories"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "22",
+        "fields": {
+            "name": "party supplies"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "23",
+        "fields": {
+            "name": "fitness equipment"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "24",
+        "fields": {
+            "name": "new cameras"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "25",
+        "fields": {
+            "name": "new watches"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "26",
+        "fields": {
+            "name": "gaming consoles"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "27",
+        "fields": {
+            "name": "appliances"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "28",
+        "fields": {
+            "name": "music players"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "29",
+        "fields": {
+            "name": "headphones"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "30",
+        "fields": {
+            "name": "cell phones"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "31",
+        "fields": {
+            "name": "tablets"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "32",
+        "fields": {
+            "name": "laptops"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "33",
+        "fields": {
+            "name": "desktop computers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "34",
+        "fields": {
+            "name": "printers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "35",
+        "fields": {
+            "name": "scanners"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "36",
+        "fields": {
+            "name": "monitors"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "37",
+        "fields": {
+            "name": "televisions"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "38",
+        "fields": {
+            "name": "speakers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "39",
+        "fields": {
+            "name": "home appliances"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "40",
+        "fields": {
+            "name": "camcorders"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "41",
+        "fields": {
+            "name": "kitchenware"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "42",
+        "fields": {
+            "name": "bedding"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "43",
+        "fields": {
+            "name": "bath products"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "44",
+        "fields": {
+            "name": "home improvement tools"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "45",
+        "fields": {
+            "name": "candles"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "46",
+        "fields": {
+            "name": "stationery"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "47",
+        "fields": {
+            "name": "puzzles"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "48",
+        "fields": {
+            "name": "new board games"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "49",
+        "fields": {
+            "name": "action figures"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "50",
+        "fields": {
+            "name": "building blocks"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "51",
+        "fields": {
+            "name": "dolls"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "52",
+        "fields": {
+            "name": "remote control toys"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "53",
+        "fields": {
+            "name": "outdoor games"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "54",
+        "fields": {
+            "name": "pools"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "55",
+        "fields": {
+            "name": "skincare products"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "56",
+        "fields": {
+            "name": "makeup"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "57",
+        "fields": {
+            "name": "haircare products"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "58",
+        "fields": {
+            "name": "perfumes"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "59",
+        "fields": {
+            "name": "cooking utensils"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "60",
+        "fields": {
+            "name": "bakeware"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "61",
+        "fields": {
+            "name": "bedroom furniture"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "62",
+        "fields": {
+            "name": "living room furniture"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "63",
+        "fields": {
+            "name": "dining room furniture"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "64",
+        "fields": {
+            "name": "office furniture"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "65",
+        "fields": {
+            "name": "bedroom sets"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "66",
+        "fields": {
+            "name": "sofas"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "67",
+        "fields": {
+            "name": "rings"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "68",
+        "fields": {
+            "name": "necklaces"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "69",
+        "fields": {
+            "name": "bracelets"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "70",
+        "fields": {
+            "name": "earrings"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "71",
+        "fields": {
+            "name": "paints"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "72",
+        "fields": {
+            "name": "brushes"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "73",
+        "fields": {
+            "name": "pens"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "74",
+        "fields": {
+            "name": "pencils"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "75",
+        "fields": {
+            "name": "markers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "76",
+        "fields": {
+            "name": "notebooks"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "77",
+        "fields": {
+            "name": "planners"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "78",
+        "fields": {
+            "name": "new puzzles"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "79",
+        "fields": {
+            "name": "calculators"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "80",
+        "fields": {
+            "name": "board games"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "81",
+        "fields": {
+            "name": "playing cards"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "82",
+        "fields": {
+            "name": "new musical instruments"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "83",
+        "fields": {
+            "name": "new garden tools"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "84",
+        "fields": {
+            "name": "planters"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "85",
+        "fields": {
+            "name": "baby clothes"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "86",
+        "fields": {
+            "name": "diapers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "87",
+        "fields": {
+            "name": "baby monitors"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "88",
+        "fields": {
+            "name": "baby carriers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "89",
+        "fields": {
+            "name": "pet food"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "90",
+        "fields": {
+            "name": "pet toys"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "91",
+        "fields": {
+            "name": "pet beds"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "92",
+        "fields": {
+            "name": "pet grooming supplies"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "93",
+        "fields": {
+            "name": "vitamins and supplements"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "94",
+        "fields": {
+            "name": "first aid kits"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "95",
+        "fields": {
+            "name": "medical devices"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "96",
+        "fields": {
+            "name": "luggage sets"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "97",
+        "fields": {
+            "name": "suitcases"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "98",
+        "fields": {
+            "name": "backpacks"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "99",
+        "fields": {
+            "name": "travel accessories"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "100",
+        "fields": {
+            "name": "car mats"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "101",
+        "fields": {
+            "name": "car covers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "102",
+        "fields": {
+            "name": "car seat covers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "103",
+        "fields": {
+            "name": "car air fresheners"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "104",
+        "fields": {
+            "name": "party decorations"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "105",
+        "fields": {
+            "name": "party favors"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "106",
+        "fields": {
+            "name": "party games"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "107",
+        "fields": {
+            "name": "treadmills"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "108",
+        "fields": {
+            "name": "exercise bikes"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "109",
+        "fields": {
+            "name": "elliptical machines"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "110",
+        "fields": {
+            "name": "weight benches"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "111",
+        "fields": {
+            "name": "dumbbells"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "112",
+        "fields": {
+            "name": "kettlebells"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "113",
+        "fields": {
+            "name": "yoga mats"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "114",
+        "fields": {
+            "name": "cameras"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "115",
+        "fields": {
+            "name": "lenses"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "116",
+        "fields": {
+            "name": "tripods"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "117",
+        "fields": {
+            "name": "camera bags"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "118",
+        "fields": {
+            "name": "camera batteries"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "119",
+        "fields": {
+            "name": "camera chargers"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "120",
+        "fields": {
+            "name": "camera memory cards"
+        }
+    },
+    {
+        "model": "inventory.producttype",
+        "id": "121",
+        "fields": {
+            "name": "watches"
+        }
+    }
+]

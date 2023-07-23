@@ -1,0 +1,293 @@
+[
+    {
+        "model": "inventory.brand",
+        "id": "1",
+        "fields": {
+            "name": "Nike"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "2",
+        "fields": {
+            "name": "Adidas"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "3",
+        "fields": {
+            "name": "Apple"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "4",
+        "fields": {
+            "name": "Samsung"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "5",
+        "fields": {
+            "name": "Sony"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "6",
+        "fields": {
+            "name": "Microsoft"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "7",
+        "fields": {
+            "name": "Canon"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "8",
+        "fields": {
+            "name": "Nikon"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "9",
+        "fields": {
+            "name": "HP"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "10",
+        "fields": {
+            "name": "Dell"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "11",
+        "fields": {
+            "name": "LG"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "12",
+        "fields": {
+            "name": "ASUS"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "13",
+        "fields": {
+            "name": "Lenovo"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "14",
+        "fields": {
+            "name": "Gucci"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "15",
+        "fields": {
+            "name": "Prada"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "16",
+        "fields": {
+            "name": "Versace"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "17",
+        "fields": {
+            "name": "Rolex"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "18",
+        "fields": {
+            "name": "Tiffany & Co."
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "19",
+        "fields": {
+            "name": "Chanel"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "20",
+        "fields": {
+            "name": "Louis Vuitton"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "21",
+        "fields": {
+            "name": "Hermès"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "22",
+        "fields": {
+            "name": "Cartier"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "23",
+        "fields": {
+            "name": "Puma"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "24",
+        "fields": {
+            "name": "Reebok"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "25",
+        "fields": {
+            "name": "Vans"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "26",
+        "fields": {
+            "name": "Converse"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "27",
+        "fields": {
+            "name": "New Balance"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "28",
+        "fields": {
+            "name": "Under Armour"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "29",
+        "fields": {
+            "name": "Adidas Originals"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "30",
+        "fields": {
+            "name": "Timberland"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "31",
+        "fields": {
+            "name": "Fila"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "32",
+        "fields": {
+            "name": "Levi's"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "33",
+        "fields": {
+            "name": "Calvin Klein"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "34",
+        "fields": {
+            "name": "Tommy Hilfiger"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "35",
+        "fields": {
+            "name": "Ralph Lauren"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "36",
+        "fields": {
+            "name": "Burberry"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "37",
+        "fields": {
+            "name": "Hugo Boss"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "38",
+        "fields": {
+            "name": "Guess"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "39",
+        "fields": {
+            "name": "Zara"
+        }
+    },
+    {
+        "model": "inventory.brand",
+        "id": "40",
+        "fields": {
+            "name": "H&M"
+        }
+    }
+]
+
+{
+    "model":"user_product_interaction.userproductinteraction",
+    "pk":1,
+    "fields":{
+        "user":1,
+        "product":1,
+        "duration":1,
+        
+    }
+}

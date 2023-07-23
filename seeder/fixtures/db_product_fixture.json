@@ -1,0 +1,1746 @@
+[
+  {
+    "model": "inventory.product",
+    "id": 1,
+    "fields": {
+      "uuid": "45425810",
+      "name": "Vintage T-Shirt",
+      "slug": "vintage-t-shirt",
+      "category": "1",
+      "description": "This classic blue t-shirt is made from 100% cotton and is very comfortable to wear all day long, whether you are at home or out with friends. It is available in sizes S, M, L, XL, XXL. It is machine washable and can be ironed at medium temperature.",
+      "is_active": "1",
+      "brand": "1",
+      "product_type": "1",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 2,
+    "fields": {
+      "uuid": "45425811",
+      "name": "Black Jeans",
+      "slug": "black-jeans",
+      "category": "2",
+      "description": " These black jeans are made from premium denim and are very comfortable to wear all day long, they are also very durable and will last you a long time, they are also very durable and will last you a long time. They are available in sizes S, M, L, XL, XXL. They are machine washable and can be ironed at medium temperature. ",
+      "is_active": "1",
+      "brand": "2",
+      "product_type": "2",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 3,
+    "fields": {
+      "uuid": "45425812",
+      "name": "Velvet Women Dress",
+      "slug": "velvet-dress",
+      "category": "3",
+      "description": "This red dress is made from 100% cotton and is very comfortable to wear all day long, whether you are at home or out with friends. It is available in sizes S, M, L, XL, XXL. It is machine washable and can be ironed at medium temperature, it is also very durable and will last you a long time.",
+      "is_active": "1",
+      "brand": "1",
+      "product_type": "3",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 4,
+    "fields": {
+      "uuid": "45425813",
+      "name": "Iphone 12",
+      "slug": "iphone-12",
+      "category": "7",
+      "description": " This phone is made from premium materials and is very durable, it is also very durable and will last you a long time. It is available in sizes S, M, L, XL, XXL. It is machine washable and can be ironed at medium temperature, it is also very durable and will last you a long time. ",
+      "is_active": "1",
+      "brand": "3",
+      "product_type": "4",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 5,
+    "fields": {
+      "uuid": "45425813",
+      "name": "MacBoon Air",
+      "slug": "macair-12",
+      "category": "7",
+      "description": " This mac air is made from premium materials and is very durable, it is also very durable and will last you a long time. It is available in sizes S, M, L, XL, XXL. It is machine washable and can be ironed at medium temperature, it is also very durable and will last you a long time. ",
+      "is_active": "1",
+      "brand": "3",
+      "product_type": "4",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 6,
+    "fields": {
+      "uuid": "45425813",
+      "name": "MacBoon Pro",
+      "slug": "macpro-12",
+      "category": "7",
+      "description": " This macpro is made from premium materials and is very durable, it is also very durable and will last you a long time. It is available in sizes S, M, L, XL, XXL. It is machine washable and can be ironed at medium temperature, it is also very durable and will last you a long time. ",
+      "is_active": "1",
+      "brand": "3",
+      "product_type": "4",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 7,
+    "fields": {
+      "uuid": "1234-5678-9012-3456",
+      "name": "Nike Air Zoom Pegasus 39",
+      "slug": "nike-air-zoom-pegasus-39",
+      "category": "1",
+      "description": "The Nike Air Zoom Pegasus 39 is a lightweight running shoe that provides a responsive and cushioned ride. It features a new Zoom Air unit in the forefoot that provides more cushioning and responsiveness, and a new upper that is more breathable and flexible.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "1",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 8,
+    "fields": {
+      "uuid": "5678-9012-3456-7890",
+      "name": "Adidas Ultraboost 22",
+      "slug": "adidas-ultraboost-22",
+      "category": "1",
+      "description": "The Adidas Ultraboost 22 is a running shoe that provides a comfortable and responsive ride. It features a new Primeknit upper that is more flexible and supportive, and a new Boost midsole that provides more cushioning and energy return.",
+      "is_active": 1,
+      "brand": 2,
+      "product_type": "1",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 9,
+    "fields": {
+      "uuid": "9012-3456-7890-1234",
+      "name": "Levi's 501 Jeans",
+      "slug": "levis-501-jeans",
+      "category": "3",
+      "description": "The Levi's 501 jeans are a classic pair of jeans that are known for their durability and comfort. They are made from 100% cotton denim and have a straight leg fit.",
+      "is_active": 1,
+      "brand": 38,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 10,
+    "fields": {
+      "uuid": "7890-1234-5678-9012",
+      "name": "Apple Watch Series 7",
+      "slug": "apple-watch-series-7",
+      "category": "2",
+      "description": "The Apple Watch Series 7 is a smartwatch that features a larger and more durable display, a faster processor, and improved health tracking features.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 11,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-11",
+      "name": "Samsung Galaxy S23 Ultra",
+      "slug": "samsung-galaxy-s23-ultra",
+      "category": "2",
+      "description": "The Samsung Galaxy S23 Ultra is a smartphone that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 12,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-12",
+      "name": "MacBook Pro M2",
+      "slug": "macbook-pro-m2",
+      "category": "2",
+      "description": "The MacBook Pro M2 is a laptop that features a new M2 chip, a larger and brighter display, and a more powerful battery.",
+      "is_active": 1,
+      "brand": 4,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 13,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-13",
+      "name": "AirPods Pro",
+      "slug": "airpods-pro",
+      "category": "4",
+      "description": "The AirPods Pro are wireless earbuds that feature active noise cancellation, a transparency mode, and a longer battery life.",
+      "is_active": 1,
+      "brand": 5,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 14,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-14",
+      "name": "Apple TV 4K",
+      "slug": "apple-tv-4k",
+      "category": "5",
+      "description": "The Apple TV 4K is a streaming device that features a 4K HDR display, a powerful processor, and a wide variety of streaming apps.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 15,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-15",
+      "name": "Sony WH-1000XM4",
+      "slug": "sony-wh-1000xm4",
+      "category": "4",
+      "description": "The Sony WH-1000XM4 are wireless noise-canceling headphones that feature superior noise cancellation, a long battery life, and a comfortable fit.",
+      "is_active": 1,
+      "brand": 6,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 16,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-16",
+      "name": "Bose QuietComfort 45",
+      "slug": "bose-quietcomfort-45",
+      "category": "4",
+      "description": "The Bose QuietComfort 45 are wireless noise-canceling headphones that feature good noise cancellation, a long battery life, and a comfortable fit.",
+      "is_active": 1,
+      "brand": 7,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 17,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-17",
+      "name": "Apple iPad Air (2023)",
+      "slug": "apple-ipad-air-2023",
+      "category": "2",
+      "description": "The Apple iPad Air (2023) is a tablet that features an M2 chip, a larger and brighter display, and a more powerful battery.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 18,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-18",
+      "name": "Samsung Galaxy Tab S8 Ultra",
+      "slug": "samsung-galaxy-tab-s8-ultra",
+      "category": "2",
+      "description": "The Samsung Galaxy Tab S8 Ultra is a tablet that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 19,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-18",
+      "name": "Sony WH-1000XM5",
+      "slug": "sony-wh-1000xm5",
+      "category": "4",
+      "description": "The Sony WH-1000XM5 are wireless noise-canceling headphones that feature superior noise cancellation, a long battery life, and a comfortable fit.",
+      "is_active": 1,
+      "brand": 6,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 20,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-19",
+      "name": "Bose QuietComfort 55",
+      "slug": "bose-quietcomfort-55",
+      "category": "4",
+      "description": "The Bose QuietComfort 55 are wireless noise-canceling headphones that feature good noise cancellation, a long battery life, and a comfortable fit.",
+      "is_active": 1,
+      "brand": 7,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 21,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-20",
+      "name": "Apple iPad Pro (12.9-inch) (2023)",
+      "slug": "apple-ipad-pro-12-9-inch-2023",
+      "category": "2",
+      "description": "The Apple iPad Pro (12.9-inch) (2023) is a tablet that features an M2 chip, a larger and brighter display, and a more powerful battery.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 22,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-21",
+      "name": "Samsung Galaxy S23 FE",
+      "slug": "samsung-galaxy-s23-fe",
+      "category": "2",
+      "description": "The Samsung Galaxy S23 FE is a smartphone that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 23,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-23",
+      "name": "Jabra Elite 7 Pro",
+      "slug": "jabra-elite-7-pro",
+      "category": "4",
+      "description": "The Jabra Elite 7 Pro are wireless earbuds that feature active noise cancellation, a transparency mode, and a long battery life.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 24,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-24",
+      "name": "Samsung Galaxy Buds Pro",
+      "slug": "samsung-galaxy-buds-pro",
+      "category": "4",
+      "description": "The Samsung Galaxy Buds Pro are wireless earbuds that feature active noise cancellation, a transparency mode, and a long battery life.",
+      "is_active": 1,
+      "brand": 9,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 25,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-25",
+      "name": "Apple Watch SE",
+      "slug": "apple-watch-se",
+      "category": "3",
+      "description": "The Apple Watch SE is a smartwatch that features a smaller and more affordable design than the Apple Watch Series 7. It still has all the same features, including a larger and brighter display, a faster processor, and improved health tracking features.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 26,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-26",
+      "name": "Samsung Galaxy Watch4 Classic",
+      "slug": "samsung-galaxy-watch4-classic",
+      "category": "3",
+      "description": "The Samsung Galaxy Watch4 Classic is a smartwatch that features a rotating bezel and a traditional watch design. It still has all the same features as the Samsung Galaxy Watch4, including a new Wear OS operating system, a faster processor, and improved health tracking features.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 27,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-27",
+      "name": "Asus ROG Strix G15",
+      "slug": "asus-rog-strix-g15",
+      "category": "1",
+      "description": "The Asus ROG Strix G15 is a gaming laptop that features an RTX 3070 Ti GPU, an AMD Ryzen 9 6900HX CPU, and a 15.6-inch WQHD display.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "1",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 28,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-28",
+      "name": "Razer Blade 14",
+      "slug": "razer-blade-14",
+      "category": "1",
+      "description": "The Razer Blade 14 is a gaming laptop that features an RTX 3060 Ti GPU, an AMD Ryzen 9 6900HS CPU, and a 14-inch QHD display.",
+      "is_active": 1,
+      "brand": 9,
+      "product_type": "1",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 29,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-29",
+      "name": "Dell Alienware M17 R5",
+      "slug": "dell-alienware-m17-r5",
+      "category": "1",
+      "description": "The Dell Alienware M17 R5 is a gaming laptop that features an RTX 3080 Ti GPU, an Intel Core i9-12900HX CPU, and a 17.3-inch 4K display.",
+      "is_active": 1,
+      "brand": 10,
+      "product_type": "1",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 30,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-30",
+      "name": "Lenovo Legion 5 Pro",
+      "slug": "lenovo-legion-5-pro",
+      "category": "1",
+      "description": "The Lenovo Legion 5 Pro is a gaming laptop that features an RTX 3070 Ti GPU, an AMD Ryzen 9 6900HX CPU, and a 16-inch QHD display.",
+      "is_active": 1,
+      "brand": 11,
+      "product_type": "1",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 31,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-31",
+      "name": "Google Pixel 6 Pro",
+      "slug": "google-pixel-6-pro",
+      "category": "2",
+      "description": "The Google Pixel 6 Pro is a smartphone that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 32,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-32",
+      "name": "iPhone 14 Pro Max",
+      "slug": "iphone-14-pro-max",
+      "category": "2",
+      "description": "The iPhone 14 Pro Max is a smartphone that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 9,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 33,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-33",
+      "name": "AirPods Max",
+      "slug": "airpods-max",
+      "category": "4",
+      "description": "The AirPods Max are wireless noise-canceling headphones that feature superior noise cancellation, a long battery life, and a comfortable fit.",
+      "is_active": 1,
+      "brand": 5,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 34,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-34",
+      "name": "Apple TV 4K (2023)",
+      "slug": "apple-tv-4k-2023",
+      "category": "5",
+      "description": "The Apple TV 4K (2023) is a streaming device that features a 4K HDR display, a powerful processor, and a wide variety of streaming apps.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 35,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-35",
+      "name": "Google Pixel 6 Pro",
+      "slug": "google-pixel-6-pro",
+      "category": "2",
+      "description": "The Google Pixel 6 Pro is a smartphone that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 36,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-36",
+      "name": "iPhone 14 Pro Max",
+      "slug": "iphone-14-pro-max",
+      "category": "2",
+      "description": "The iPhone 14 Pro Max is a smartphone that features a large and high-resolution display, a powerful processor, and a versatile camera system.",
+      "is_active": 1,
+      "brand": 9,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 37,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-37",
+      "name": "Asus ROG Phone 6 Pro",
+      "slug": "asus-rog-phone-6-pro",
+      "category": "2",
+      "description": "The Asus ROG Phone 6 Pro is a gaming smartphone that features a large and high-refresh-rate display, a powerful processor, and a long-lasting battery.",
+      "is_active": 1,
+      "brand": 10,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 38,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-38",
+      "name": "Razer Phone 2",
+      "slug": "razer-phone-2",
+      "category": "2",
+      "description": "The Razer Phone 2 is a gaming smartphone that features a large and high-refresh-rate display, a powerful processor, and a long-lasting battery.",
+      "is_active": 1,
+      "brand": 11,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 39,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-39",
+      "name": "Le Creuset Dutch Oven",
+      "slug": "le-creuset-dutch-oven",
+      "category": "6",
+      "description": "The Le Creuset Dutch Oven is a versatile pot that can be used for cooking a variety of dishes, from stews to soups to braises. It is made from cast iron, which makes it durable and heat-resistant.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 40,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-40",
+      "name": "Ninja Foodi 10-in-1 Pressure Cooker",
+      "slug": "ninja-foodi-10-in-1-pressure-cooker",
+      "category": "6",
+      "description": "The Ninja Foodi 10-in-1 Pressure Cooker is a versatile appliance that can be used for cooking a variety of dishes, from rice to beans to chicken. It is also a pressure cooker, which means that it can cook food quickly and evenly.",
+      "is_active": 1,
+      "brand": 9,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 41,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-41",
+      "name": "Vitamix Ascent Series Blender",
+      "slug": "vitamix-ascent-series-blender",
+      "category": "6",
+      "description": "The Vitamix Ascent Series Blender is a powerful blender that can be used for a variety of tasks, from smoothies to soups to frozen drinks. It is also a high-speed blender, which means that it can blend food quickly and evenly.",
+      "is_active": 1,
+      "brand": 10,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 42,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-42",
+      "name": "KitchenAid Stand Mixer",
+      "slug": "kitchenaid-stand-mixer",
+      "category": "6",
+      "description": "The KitchenAid Stand Mixer is a versatile appliance that can be used for a variety of tasks, from mixing dough to kneading bread to whipping cream. It is also a powerful mixer, which means that it can handle even the toughest tasks.",
+      "is_active": 1,
+      "brand": 11,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 43,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-43",
+      "name": "Le Creuset Cast Iron Skillet",
+      "slug": "le-creuset-cast-iron-skillet",
+      "category": "6",
+      "description": "The Le Creuset Cast Iron Skillet is a versatile pan that can be used for cooking a variety of dishes, from searing steaks to frying eggs to making pancakes. It is made from cast iron, which makes it durable and heat-resistant.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 44,
+    "fields": {
+      "uuid": "5678-9012-3456-7890-44",
+      "name": "Calphalon Classic Nonstick 12-Inch Frying Pan",
+      "slug": "calphalon-classic-nonstick-12-inch-frying-pan",
+      "category": "6",
+      "description": "The Calphalon Classic Nonstick 12-Inch Frying Pan is a versatile pan that can be used for cooking a variety of dishes, from searing steaks to frying eggs to making pancakes. It is made from nonstick material, which makes it easy to clean.",
+      "is_active": 1,
+      "brand": 12,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 45,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-45",
+      "name": "All-Clad D3 Stainless Steel Saute Pan",
+      "slug": "all-clad-d3-stainless-steel-saute-pan",
+      "category": "6",
+      "description": "The All-Clad D3 Stainless Steel Saute Pan is a versatile pan that can be used for cooking a variety of dishes, from searing steaks to sauteing vegetables to making sauces. It is made from high-quality stainless steel, which makes it durable and heat-resistant.",
+      "is_active": 1,
+      "brand": 13,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 46,
+    "fields": {
+      "uuid": "9012-3456-7890-1237-45",
+      "name": "All-Clad D3 Stainless Steel Saute Pan v2.0",
+      "slug": "all-clad-d3-stainless-steel-saute-pan-v2.0",
+      "category": "6",
+      "description": "The All-Clad D3 Stainless Steel Saute Pan is a versatile pan that can be used for cooking a variety of dishes, from searing steaks to sauteing vegetables to making sauces. It is made from high-quality stainless steel, which makes it durable and heat-resistant.",
+      "is_active": 1,
+      "brand": 13,
+      "product_type": "2",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 47,
+    "fields": {
+      "uuid": "3456-7890-1234-5678-90",
+      "name": "Lululemon Wunder Under High-Rise Tights",
+      "slug": "lululemon-wunder-under-high-rise-tights",
+      "category": "12",
+      "description": "The Lululemon Wunder Under High-Rise Tights are a great pair of workout leggings. They are comfortable, supportive, and stylish.",
+      "is_active": 1,
+      "brand": 17,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 48,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-56",
+      "name": "Anker Soundcore Life P3 Wireless Earbuds",
+      "slug": "anker-soundcore-life-p3-wireless-earbuds",
+      "category": "8",
+      "description": "The Anker Soundcore Life P3 Wireless Earbuds are a great pair of wireless earbuds for everyday use. They are comfortable, have great sound quality, and offer long battery life.",
+      "is_active": 1,
+      "brand": 18,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 49,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-78",
+      "name": "Casper Wave Hybrid Mattress",
+      "slug": "casper-wave-hybrid-mattress",
+      "category": "11",
+      "description": "The Casper Wave Hybrid Mattress is a great mattress for people who want a comfortable and supportive sleep. It is made with a combination of foam and springs, which provides both pressure relief and bounce.",
+      "is_active": 1,
+      "brand": 19,
+      "product_type": "4",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 50,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-34",
+      "name": "Gucci Bamboo Eau de Parfum",
+      "slug": "gucci-bamboo-eau-de-parfum",
+      "category": "11",
+      "description": "The Gucci Bamboo Eau de Parfum is a feminine fragrance that is perfect for everyday wear. It is a blend of fresh and floral notes, with a hint of musk.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 51,
+    "fields": {
+      "uuid": "3456-7890-1234-5678-99",
+      "name": "Tiffany & Co. HardWear Bracelet",
+      "slug": "tiffany-co-hardwear-bracelet",
+      "category": "11",
+      "description": "The Tiffany & Co. HardWear Bracelet is a versatile piece of jewelry that can be worn by both men and women. It is made from stainless steel and features a bold, geometric design.",
+      "is_active": 1,
+      "brand": 2,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 52,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-55",
+      "name": "Rolex Datejust Watch",
+      "slug": "rolex-datejust-watch",
+      "category": "11",
+      "description": "The Rolex Datejust Watch is a classic timepiece that is perfect for both men and women. It is made from stainless steel and features a date window and a fluted bezel.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 53,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-77",
+      "name": "Cartier Love Bracelet",
+      "slug": "cartier-love-bracelet",
+      "category": "11",
+      "description": "The Cartier Love Bracelet is a popular piece of jewelry that is often worn as a symbol of love. It is made from stainless steel and features a distinctive interlocking design.",
+      "is_active": 1,
+      "brand": 4,
+      "product_type": "13",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 54,
+    "fields": {
+      "uuid": "7890-1234-5678-9012-34",
+      "name": "Chanel No. 5 Eau de Parfum",
+      "slug": "chanel-no-5-eau-de-parfum",
+      "category": "11",
+      "description": "The Chanel No. 5 Eau de Parfum is a classic fragrance that is perfect for special occasions. It is a blend of floral and woody notes, with a hint of jasmine.",
+      "is_active": 1,
+      "brand": 5,
+      "product_type": "3",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 55,
+    "fields": {
+      "uuid": "3456-7890-1234-5678-99",
+      "name": "Hermes Kelly Pochette",
+      "slug": "hermes-kelly-pochette",
+      "category": "11",
+      "description": "The Hermes Kelly Pochette is a luxurious piece of jewelry that is perfect for any occasion. It is made from high-quality leather and features a classic design.",
+      "is_active": 1,
+      "brand": 6,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 56,
+    "fields": {
+      "uuid": "9012-3456-7890-1234-55",
+      "name": "Louis Vuitton Neverfull Bag",
+      "slug": "louis-vuitton-neverfull-bag",
+      "category": "11",
+      "description": "The Louis Vuitton Neverfull Bag is a popular piece of luggage that is perfect for travel. It is made from high-quality canvas and features a spacious design.",
+      "is_active": 1,
+      "brand": 7,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 57,
+    "fields": {
+      "uuid": "1234-5678-9012-3456-77",
+      "name": "Rolex Submariner Watch",
+      "slug": "rolex-submariner-watch",
+      "category": "11",
+      "description": "The Rolex Submariner Watch is a classic timepiece that is perfect for men. It is made from stainless steel and features a unidirectional rotating bezel and a date window.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "5",
+      "created_at": "2023-06-02T00:31:20+00:00",
+      "updated_at": "2023-06-02T00:31:20+00:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 58,
+    "fields": {
+      "uuid": "3a1de756-84e1-4f3c-9f1a-6a2a10b60100",
+      "name": "Men's Casual Shirt",
+      "slug": "mens-casual-shirt",
+      "category": "2",
+      "description": "A comfortable and stylish casual shirt for men.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "1",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 59,
+    "fields": {
+      "uuid": "a872e4d3-74f2-4c5a-88a6-9a3eb0f80202",
+      "name": "Women's Running Shoes",
+      "slug": "womens-running-shoes",
+      "category": "4",
+      "description": "High-quality running shoes designed specifically for women.",
+      "is_active": 1,
+      "brand": 23,
+      "product_type": "7",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 60,
+    "fields": {
+      "uuid": "bb9c4378-d2e0-40d3-8d66-ee6d6df63d03",
+      "name": "Apple iPhone 12",
+      "slug": "apple-iphone-12",
+      "category": "7",
+      "description": "The latest iPhone from Apple with advanced features and stunning design.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "16",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 61,
+    "fields": {
+      "uuid": "df13d15e-5033-4f14-bd66-8a8a7a2850a4",
+      "name": "Samsung 55-Inch Smart TV",
+      "slug": "samsung-55-inch-smart-tv",
+      "category": "7",
+      "description": "A high-definition smart TV with a 55-inch display from Samsung.",
+      "is_active": 1,
+      "brand": 4,
+      "product_type": "17",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 62,
+    "fields": {
+      "uuid": "5203b9c7-262e-47ad-9db4-52e3e2030305",
+      "name": "Sony Noise-Canceling Headphones",
+      "slug": "sony-noise-canceling-headphones",
+      "category": "8",
+      "description": "Premium wireless headphones with industry-leading noise-canceling technology.",
+      "is_active": 1,
+      "brand": 5,
+      "product_type": "21",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 63,
+    "fields": {
+      "uuid": "6d1ae72c-5a2d-4a54-88c2-6b8d9e7f0406",
+      "name": "Microsoft Surface Pro 7",
+      "slug": "microsoft-surface-pro-7",
+      "category": "7",
+      "description": "A versatile 2-in-1 laptop with a detachable keyboard, powered by Microsoft.",
+      "is_active": 1,
+      "brand": 6,
+      "product_type": "19",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 64,
+    "fields": {
+      "uuid": "91648624-98b3-4e39-98a4-9598d8a20707",
+      "name": "Canon EOS Rebel T7i DSLR Camera",
+      "slug": "canon-eos-rebel-t7i-dslr-camera",
+      "category": "7",
+      "description": "A powerful DSLR camera with advanced features for photography enthusiasts.",
+      "is_active": 1,
+      "brand": 7,
+      "product_type": "20",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 65,
+    "fields": {
+      "uuid": "99f95c7d-6e5b-4d03-bd82-3365dc1f0808",
+      "name": "Nikon D850 DSLR Camera",
+      "slug": "nikon-d850-dslr-camera",
+      "category": "7",
+      "description": "A professional-grade DSLR camera with exceptional image quality and performance.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "20",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 66,
+    "fields": {
+      "uuid": "825d8d2b-6762-4f8c-b37b-0dd76f8b0909",
+      "name": "HP Pavilion 15-Inch Laptop",
+      "slug": "hp-pavilion-15-inch-laptop",
+      "category": "7",
+      "description": "A reliable and stylish laptop for everyday computing tasks from HP.",
+      "is_active": 1,
+      "brand": 9,
+      "product_type": "19",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 67,
+    "fields": {
+      "uuid": "c0e44e35-6e9c-4a4e-a2f9-80e4e7031010",
+      "name": "Dell XPS 13 Laptop",
+      "slug": "dell-xps-13-laptop",
+      "category": "7",
+      "description": "A compact and powerful laptop with a stunning display, powered by Dell.",
+      "is_active": 1,
+      "brand": 10,
+      "product_type": "19",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 68,
+    "fields": {
+      "uuid": "fbabc236-2e01-4d2c-b91a-d16a3e630111",
+      "name": "Gucci GG Marmont Matelassé Shoulder Bag",
+      "slug": "gucci-gg-marmont-matelasse-shoulder-bag",
+      "category": "11",
+      "description": "A luxurious leather shoulder bag with the iconic GG logo, designed by Gucci.",
+      "is_active": 1,
+      "brand": 14,
+      "product_type": "34",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 69,
+    "fields": {
+      "uuid": "85462051-6b3d-4d43-b0f5-8ccbd1c63212",
+      "name": "Prada Saffiano Leather Wallet",
+      "slug": "prada-saffiano-leather-wallet",
+      "category": "11",
+      "description": "A stylish and functional wallet made from high-quality saffiano leather, by Prada.",
+      "is_active": 1,
+      "brand": 15,
+      "product_type": "34",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 70,
+    "fields": {
+      "uuid": "dc1eab71-671b-46f4-99e9-1456fda92413",
+      "name": "Rolex Submariner Date Watch",
+      "slug": "rolex-submariner-date-watch",
+      "category": "11",
+      "description": "An iconic and robust diving watch with a date function, created by Rolex.",
+      "is_active": 1,
+      "brand": 17,
+      "product_type": "37",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 71,
+    "fields": {
+      "uuid": "a2e03eb1-d4b9-4b1c-9759-1a4d8d3a1414",
+      "name": "Tiffany & Co. Diamond Engagement Ring",
+      "slug": "tiffany-and-co-diamond-engagement-ring",
+      "category": "11",
+      "description": "A breathtaking diamond engagement ring crafted by Tiffany & Co., symbolizing eternal love.",
+      "is_active": 1,
+      "brand": 18,
+      "product_type": "38",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 72,
+    "fields": {
+      "uuid": "b84d45b0-2e55-4a18-9e01-b62f79ddab15",
+      "name": "Chanel Coco Mademoiselle Eau de Parfum",
+      "slug": "chanel-coco-mademoiselle-eau-de-parfum",
+      "category": "11",
+      "description": "An elegant and timeless fragrance for women, designed by Chanel.",
+      "is_active": 1,
+      "brand": 19,
+      "product_type": "39",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 73,
+    "fields": {
+      "uuid": "3a5b7e0d-8a54-4c95-b3da-7f500456d501",
+      "name": "Nike Air Max 270",
+      "slug": "nike-air-max-270",
+      "category": "1",
+      "description": "A stylish and comfortable pair of Nike sneakers with Air Max cushioning.",
+      "is_active": 1,
+      "brand": 1,
+      "product_type": "1",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 74,
+    "fields": {
+      "uuid": "6b717f94-b1d0-46f7-993c-098fb4d29ff2",
+      "name": "Adidas UltraBoost",
+      "slug": "adidas-ultraboost",
+      "category": "1",
+      "description": "High-performance running shoes with responsive cushioning, created by Adidas.",
+      "is_active": 1,
+      "brand": 2,
+      "product_type": "1",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 75,
+    "fields": {
+      "uuid": "b6d2e5dd-41cc-4454-bc3c-1ac7e2c0d1ff",
+      "name": "Apple MacBook Pro",
+      "slug": "apple-macbook-pro",
+      "category": "2",
+      "description": "A powerful and sleek laptop designed by Apple, perfect for professionals.",
+      "is_active": 1,
+      "brand": 3,
+      "product_type": "2",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 76,
+    "fields": {
+      "uuid": "8677f865-4a9d-4b47-9256-4f9d4c6d322e",
+      "name": "Samsung Galaxy S21",
+      "slug": "samsung-galaxy-s21",
+      "category": "2",
+      "description": "A cutting-edge smartphone with a stunning display and powerful camera system, by Samsung.",
+      "is_active": 1,
+      "brand": 4,
+      "product_type": "3",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 77,
+    "fields": {
+      "uuid": "0a013fb2-1f59-4042-aa7f-1dbd8032f72e",
+      "name": "Sony PlayStation 5",
+      "slug": "sony-playstation-5",
+      "category": "3",
+      "description": "The latest gaming console from Sony, offering immersive gaming experiences.",
+      "is_active": 1,
+      "brand": 5,
+      "product_type": "4",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 78,
+    "fields": {
+      "uuid": "87a3e0ae-4b87-4a35-8b6b-d7e83ae3134c",
+      "name": "Microsoft Surface Pro 7",
+      "slug": "microsoft-surface-pro-7",
+      "category": "2",
+      "description": "A versatile 2-in-1 laptop/tablet hybrid, designed by Microsoft.",
+      "is_active": 1,
+      "brand": 6,
+      "product_type": "2",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 79,
+    "fields": {
+      "uuid": "482a3d6c-7a9c-4e57-8c01-8eac7f0a3647",
+      "name": "Canon EOS Rebel T7i",
+      "slug": "canon-eos-rebel-t7i",
+      "category": "2",
+      "description": "A feature-packed DSLR camera with excellent image quality, manufactured by Canon.",
+      "is_active": 1,
+      "brand": 7,
+      "product_type": "5",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 80,
+    "fields": {
+      "uuid": "2d3e7db4-51f6-4ebf-8d67-9d9a33c59869",
+      "name": "Nikon D850",
+      "slug": "nikon-d850",
+      "category": "2",
+      "description": "A professional-grade DSLR camera with high-resolution capabilities, produced by Nikon.",
+      "is_active": 1,
+      "brand": 8,
+      "product_type": "5",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 81,
+    "fields": {
+      "uuid": "2d2f2e6a-4c49-4e6a-bce3-626a2e2d3331",
+      "name": "Gucci GG Marmont Matelassé Shoulder Bag",
+      "slug": "gucci-gg-marmont-matelasse-shoulder-bag",
+      "category": "5",
+      "description": "A stylish and luxurious shoulder bag with the iconic GG logo from Gucci.",
+      "is_active": 1,
+      "brand": 14,
+      "product_type": "38",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 82,
+    "fields": {
+      "uuid": "36333231-3130-3039-3837-363534333231",
+      "name": "Prada Saffiano Leather Wallet",
+      "slug": "prada-saffiano-leather-wallet",
+      "category": "5",
+      "description": "A sleek and practical wallet crafted from luxurious saffiano leather by Prada.",
+      "is_active": 1,
+      "brand": 15,
+      "product_type": "39",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 83,
+    "fields": {
+      "uuid": "36373665-3265-3436-6266-333138303437",
+      "name": "Versace Medusa Chain Necklace",
+      "slug": "versace-medusa-chain-necklace",
+      "category": "6",
+      "description": "A stunning chain necklace featuring the iconic Medusa head emblem by Versace.",
+      "is_active": 1,
+      "brand": 16,
+      "product_type": "40",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 84,
+    "fields": {
+      "uuid": "34663731-6334-6132-3137-363139653130",
+      "name": "Rolex Datejust Automatic Watch",
+      "slug": "rolex-datejust-automatic-watch",
+      "category": "6",
+      "description": "An iconic and timeless automatic watch with a date function from Rolex.",
+      "is_active": 1,
+      "brand": 17,
+      "product_type": "41",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 85,
+    "fields": {
+      "uuid": "34663731-6334-6132-3137-363139653135",
+      "name": "Samsung Galaxy S21 Ultra",
+      "slug": "samsung-galaxy-s21-ultra",
+      "category": "7",
+      "description": "A powerful and feature-packed smartphone with a stunning display from Samsung.",
+      "is_active": 1,
+      "brand": 18,
+      "product_type": "42",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 86,
+    "fields": {
+      "uuid": "8e4a9c45-9841-4e55-ba44-0ad85cc9472a",
+      "name": "Yoga Mat",
+      "slug": "yoga-mat",
+      "category": "9",
+      "description": "A high-quality yoga mat for comfortable and stable practice sessions.",
+      "is_active": 1,
+      "brand": 24,
+      "product_type": "46",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 87,
+    "fields": {
+      "uuid": "de7d2f29-77b6-4af7-8a63-6e6d1a5e3dca",
+      "name": "Tennis Racket",
+      "slug": "tennis-racket",
+      "category": "9",
+      "description": "A high-performance tennis racket for competitive matches and training sessions.",
+      "is_active": 1,
+      "brand": 25,
+      "product_type": "47",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 88,
+    "fields": {
+      "uuid": "edb39362-2072-4c46-a14b-532e1b29a36f",
+      "name": "Outdoor Camping Tent",
+      "slug": "outdoor-camping-tent",
+      "category": "9",
+      "description": "A spacious and durable camping tent for outdoor adventures and camping trips.",
+      "is_active": 1,
+      "brand": 26,
+      "product_type": "48",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 89,
+    "fields": {
+      "uuid": "cd979ede-2a21-4d76-a4db-3b768b8d90f7",
+      "name": "Hiking Backpack",
+      "slug": "hiking-backpack",
+      "category": "9",
+      "description": "A sturdy and comfortable backpack for carrying essentials during hiking and outdoor activities.",
+      "is_active": 1,
+      "brand": 27,
+      "product_type": "49",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 90,
+    "fields": {
+      "uuid": "7fd62d47-31af-4a18-84d5-7d04ffbe7e2d",
+      "name": "Cycling Helmet",
+      "slug": "cycling-helmet",
+      "category": "9",
+      "description": "A lightweight and aerodynamic helmet for enhanced safety and comfort during cycling.",
+      "is_active": 1,
+      "brand": 28,
+      "product_type": "50",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 91,
+    "fields": {
+      "uuid": "5e0a48f2-03e5-41b6-8b0e-fc79c307e29f",
+      "name": "Soccer Ball",
+      "slug": "soccer-ball",
+      "category": "9",
+      "description": "A high-quality soccer ball designed for superior performance and durability.",
+      "is_active": 1,
+      "brand": 29,
+      "product_type": "51",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 92,
+    "fields": {
+      "uuid": "3b4182c7-5b9d-4f77-a899-52797b303ca9",
+      "name": "Golf Club Set",
+      "slug": "golf-club-set",
+      "category": "9",
+      "description": "A complete set of golf clubs for players of all skill levels to enjoy the game.",
+      "is_active": 1,
+      "brand": 30,
+      "product_type": "52",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 93,
+    "fields": {
+      "uuid": "70ce0ed7-19e7-4c3e-b8e6-c3375f6620e9",
+      "name": "Running Shoes",
+      "slug": "running-shoes",
+      "category": "9",
+      "description": "Comfortable and supportive running shoes for an optimal running experience.",
+      "is_active": 1,
+      "brand": 31,
+      "product_type": "53",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 94,
+    "fields": {
+      "uuid": "5dd5fe26-ec14-47a7-8e3f-4c3c860124d0",
+      "name": "Trekking Poles",
+      "slug": "trekking-poles",
+      "category": "9",
+      "description": "Adjustable and lightweight trekking poles for improved stability and support during hikes.",
+      "is_active": 1,
+      "brand": 32,
+      "product_type": "54",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 95,
+    "fields": {
+      "uuid": "a2e74b19-4a0e-4eaf-a045-108b8e7eb4f1",
+      "name": "Basketball Hoop",
+      "slug": "basketball-hoop",
+      "category": "9",
+      "description": "A durable and adjustable basketball hoop for fun and competitive play.",
+      "is_active": 1,
+      "brand": 33,
+      "product_type": "55",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 96,
+    "fields": {
+      "uuid": "f727d489-0e4d-4ad5-b222-d1d3e8468c90",
+      "name": "L'Oreal Paris True Match Foundation",
+      "slug": "loreal-paris-true-match-foundation",
+      "category": "11",
+      "description": "A lightweight and blendable foundation that provides natural coverage and matches your skin tone.",
+      "is_active": 1,
+      "brand": 25,
+      "product_type": "47",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 97,
+    "fields": {
+      "uuid": "901b69cd-5ff1-4083-a43b-9adfe5d86b0c",
+      "name": "Maybelline New York Great Lash Mascara",
+      "slug": "maybelline-new-york-great-lash-mascara",
+      "category": "11",
+      "description": "An iconic mascara that adds volume and length to your lashes for a dramatic eye look.",
+      "is_active": 1,
+      "brand": 26,
+      "product_type": "48",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 98,
+    "fields": {
+      "uuid": "65b1454b-77a1-45a4-a7ae-bbfb8fc873b4",
+      "name": "NARS Orgasm Blush",
+      "slug": "nars-orgasm-blush",
+      "category": "11",
+      "description": "A highly-pigmented blush with a natural peachy-pink shade and a hint of shimmer for a radiant glow.",
+      "is_active": 1,
+      "brand": 27,
+      "product_type": "49",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 99,
+    "fields": {
+      "uuid": "7cfe24c3-2513-4d0b-96ff-1e1ad9f4538f",
+      "name": "MAC Ruby Woo Lipstick",
+      "slug": "mac-ruby-woo-lipstick",
+      "category": "11",
+      "description": "A classic red lipstick with a matte finish and intense color payoff from MAC Cosmetics.",
+      "is_active": 1,
+      "brand": 28,
+      "product_type": "50",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 100,
+    "fields": {
+      "uuid": "0c0a3771-9d71-4c94-9f20-d4a3ceec0c1e",
+      "name": "Ralph Lauren Polo Shirt",
+      "slug": "ralph-lauren-polo-shirt",
+      "category": "2",
+      "description": "A classic polo shirt from Ralph Lauren, known for its sophisticated style and high-quality materials.",
+      "is_active": 1,
+      "brand": 25,
+      "product_type": "47",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 101,
+    "fields": {
+      "uuid": "04ce1af7-ae84-4e3e-9354-1b3b619864d7",
+      "name": "Tommy Hilfiger T-Shirt",
+      "slug": "tommy-hilfiger-tshirt",
+      "category": "2",
+      "description": "A stylish and comfortable t-shirt from Tommy Hilfiger, featuring the iconic logo.",
+      "is_active": 1,
+      "brand": 26,
+      "product_type": "47",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 102,
+    "fields": {
+      "uuid": "6e17d9ae-93e5-4f46-9e45-cf2872a34f50",
+      "name": "Adidas Track Jacket",
+      "slug": "adidas-track-jacket",
+      "category": "2",
+      "description": "A sporty track jacket from Adidas, perfect for casual and athletic wear.",
+      "is_active": 1,
+      "brand": 11,
+      "product_type": "48",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 103,
+    "fields": {
+      "uuid": "4bb21d53-0704-4fb9-80a3-70ee41d1e63c",
+      "name": "Nike Hoodie",
+      "slug": "nike-hoodie",
+      "category": "2",
+      "description": "A comfortable and stylish hoodie from Nike, perfect for casual and athletic wear.",
+      "is_active": 1,
+      "brand": 10,
+      "product_type": "48",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 104,
+    "fields": {
+      "uuid": "92b86266-1550-4f65-892d-2b96a3e14682",
+      "name": "Calvin Klein Dress Shirt",
+      "slug": "calvin-klein-dress-shirt",
+      "category": "2",
+      "description": "A sophisticated dress shirt from Calvin Klein, perfect for formal occasions.",
+      "is_active": 1,
+      "brand": 27,
+      "product_type": "47",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 105,
+    "fields": {
+      "uuid": "cbcf6f6b-4a16-45b9-8e1e-f74cbe51e9b2",
+      "name": "Puma Sneakers",
+      "slug": "puma-sneakers",
+      "category": "2",
+      "description": "A stylish pair of sneakers from Puma, known for their comfort and athletic design.",
+      "is_active": 1,
+      "brand": 28,
+      "product_type": "49",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 106,
+    "fields": {
+      "uuid": "c0d9a6c5-8099-495b-94a9-2e6de4e07510",
+      "name": "Vans Old Skool Sneakers",
+      "slug": "vans-old-skool-sneakers",
+      "category": "2",
+      "description": "Classic and timeless sneakers from Vans, featuring the iconic side stripe.",
+      "is_active": 1,
+      "brand": 29,
+      "product_type": "49",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 107,
+    "fields": {
+      "uuid": "79d1e4c1-44db-47e6-af25-276a8005b193",
+      "name": "The North Face Jacket",
+      "slug": "the-north-face-jacket",
+      "category": "2",
+      "description": "A high-quality and durable jacket from The North Face, perfect for outdoor activities.",
+      "is_active": 1,
+      "brand": 30,
+      "product_type": "48",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 108,
+    "fields": {
+      "uuid": "6a16c4b0-50db-45b2-9de5-67148e8c100b",
+      "name": "Hugo Boss Suit",
+      "slug": "hugo-boss-suit",
+      "category": "2",
+      "description": "An elegant and stylish suit from Hugo Boss, perfect for formal occasions.",
+      "is_active": 1,
+      "brand": 31,
+      "product_type": "50",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  },
+  {
+    "model": "inventory.product",
+    "id": 109,
+    "fields": {
+      "uuid": "e1b084e2-6d29-45db-8c5e-647f6fdd8f99",
+      "name": "Levi's 501 Jeans",
+      "slug": "levis-501-jeans",
+      "category": "2",
+      "description": "Classic and timeless jeans from Levi's, known for their quality and durability.",
+      "is_active": 1,
+      "brand": 24,
+      "product_type": "46",
+      "created_at": "2021-09-01T13:20:30+03:00",
+      "updated_at": "2021-09-01T13:20:30+03:00"
+    }
+  }
+]
