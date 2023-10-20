@@ -8,6 +8,4 @@ class ProductAttributeValuesSerializer(ModelSerializer):
 
     class Meta:
         model = models.ProductAttributeValue
-        exclude = [
-            'id',
-        ]
+        fields = '__all__'

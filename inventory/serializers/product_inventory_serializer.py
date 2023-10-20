@@ -1,14 +1,14 @@
-from rest_framework.serializers import ModelSerializer
+from rest_framework import serializers
 from inventory import models
 from inventory.serializers.media_serializer import MediaSerializer
-from .product_type_serializer import ProductTypeSerializer
 from .product_attribute_values_serializer import ProductAttributeValuesSerializer
-from .brand_serializer import BrandSerializer
 
 
-class ProductInventorySerializer(ModelSerializer):
-    attribute_values = ProductAttributeValuesSerializer(many=True)
-    inventory_images = MediaSerializer(many=True, source='images')
+class ProductInventorySerializer(serializers.ModelSerializer):
+    specification = ProductAttributeValuesSerializer(
+        many=True, read_only=True, source='attribute_values')
+    images = MediaSerializer(many=True)
+    discount_percentage = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = models.ProductInventory
@@ -17,12 +17,22 @@ class ProductInventorySerializer(ModelSerializer):
             'id',
             'sku',
             'upc',
+            'specification',
             'retail_price',
             'sale_price',
-            'store_price',
             'is_active',
             'is_default',
-            'attribute_values',
-            'inventory_images',
+            'images',
+            'discount_percentage'
         ]
         depth = 2
+
+    def get_discount_percentage(self, inventory):
+        retail_price = inventory.retail_price
+        sale_price = inventory.sale_price
+
+        if retail_price and sale_price:
+            discount_percent = (1 - sale_price / retail_price) * 100
+            return round(discount_percent)
+        else:
+            return 0

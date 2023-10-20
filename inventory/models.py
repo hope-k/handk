@@ -13,7 +13,8 @@ from mptt.models import (
 
 from storage.custom_cloudinary_storage import CustomStorage
 from utils.generate_sku import generate_sku
-from custom_user.models import CustomUser
+from django.core.exceptions import ValidationError
+from django.contrib.auth import get_user_model
 
 # !  CATEGORY MODEL
 
@@ -104,7 +105,8 @@ class Product(models.Model):
         ProductType,
         on_delete=models.PROTECT
     )
-    brand = models.ForeignKey(Brand, on_delete=models.PROTECT, related_name='brand')
+    brand = models.ForeignKey(
+        Brand, on_delete=models.PROTECT, related_name='brand')
 
     slug = AutoSlugField(
         populate_from=['name', 'uuid'],
@@ -129,6 +131,12 @@ class Product(models.Model):
     updated_at = ModificationDateTimeField(
         verbose_name='Product Updated At'
     )
+    features = models.ManyToManyField(
+        'ProductFeature',
+        verbose_name='Product Features',
+        related_name='inventory_features',
+
+    )
 
     class Meta:
         verbose_name = 'Product'
@@ -138,16 +146,10 @@ class Product(models.Model):
         return self.name
 
 
-
 class ProductAttribute(models.Model):
     name = models.CharField(
         max_length=255,
         verbose_name='Product Attribute Name',
-        help_text="format: required, max_length=255"
-    )
-    description = models.TextField(
-        max_length=255,
-        verbose_name='Product Attribute Description',
         help_text="format: required, max_length=255"
     )
 
@@ -163,7 +165,14 @@ class ProductAttribute(models.Model):
 class ProductAttributeValue(models.Model):
     product_attribute = models.ForeignKey(
         ProductAttribute,
-        on_delete=models.PROTECT
+        on_delete=models.CASCADE
+    )
+    description = models.TextField(
+        max_length=255,
+        verbose_name='Product Attribute Value Description',
+        help_text="format: required, max_length=255",
+        null=True,
+        blank=True
     )
     attribute_value = models.CharField(
         max_length=255,
@@ -176,11 +185,30 @@ class ProductAttributeValue(models.Model):
         verbose_name_plural = 'Product Attribute Values'
 
     def __str__(self):
-        return (f"{self.product_attribute.name} - {self.attribute_value}")
+        return (f"{self.product_attribute.name} - {self.description} -  {self.attribute_value}")
+
+
+class ProductFeature(models.Model):
+    feature_name = models.CharField(
+        max_length=255,
+        null=True,
+        blank=True,
+        verbose_name='Product Feature',
+        help_text="format: required, max_length=255"
+    )
+    feature_value = models.CharField(max_length=255, null=True, blank=True)
+
+    class Meta:
+        verbose_name = 'Product Feature'
+        verbose_name_plural = 'Product Features'
+
+    def __str__(self):
+        return f"{self.feature_name} - {self.feature_value}"
 
 
 # !  PRODUCT INVENTORY MODEL
 class ProductInventory(models.Model):
+    # ! one product has many  ProductInventory ->  []
     product = models.ForeignKey(
         Product,
         on_delete=models.CASCADE,
@@ -224,10 +252,12 @@ class ProductInventory(models.Model):
             'max_digits': 'Store price must be less than 999.99',
         }
 
-    )
+    )  # todo get rid of store price
     sale_price = models.DecimalField(
         max_digits=7,
         decimal_places=2,
+        null=True,
+        blank=True,
         verbose_name='Product Sale Price',
         help_text="format: required, max_digits=5, decimal_places=2",
         error_messages={
@@ -246,8 +276,10 @@ class ProductInventory(models.Model):
     attribute_values = models.ManyToManyField(
         ProductAttributeValue,
         verbose_name='Product Attribute Values',
-        related_name='attributes'
+        related_name='inventory_attributes',
+
     )
+
     created_at = CreationDateTimeField(
         verbose_name='Product Inventory Created At'
     )
@@ -258,9 +290,10 @@ class ProductInventory(models.Model):
     class Meta:
         verbose_name = 'Product Inventory'
         verbose_name_plural = 'Product Inventories'
+        ordering = ['-id']
 
     def __str__(self):
-        return (f"{self.product.name} - {self.sku}")
+        return (f"{self.product.name} - {self.pk}")
 
     def save(self, *args, **kwargs):
         is_new_instance = self.pk is None
@@ -339,17 +372,33 @@ class Stock(models.Model):
         return self.product_inventory.product.name
 
 
+# def validate_rating(value):
+#     if value < 1 or value > 5:
+#         raise ValidationError('Rating should be between 1 and 5')
+
+
 class Review(models.Model):
     user = models.ForeignKey(
-        CustomUser, on_delete=models.DO_NOTHING, related_name='reviews')
+        get_user_model(), on_delete=models.DO_NOTHING, related_name='reviews')
     comment = models.TextField(max_length=225)
-    product = models.ForeignKey(Product, on_delete=models.DO_NOTHING)
-    rating = models.FloatField(max_length=5)
+    product = models.ForeignKey(
+        Product, on_delete=models.DO_NOTHING, related_name='reviews')
+    rating = models.PositiveIntegerField()
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
 
     def __str__(self):
         return f"{self.user.first_name}"
+
+    def clean(self):
+
+        rating = self.rating
+
+        # Check if rating is less than 1 or greater than 5
+        if rating < 1 or rating > 5:
+            raise ValidationError('Rating must be between 1 and 5.')
+
+        super().clean()
 
     class Meta:
         verbose_name = 'Product Review'
@@ -357,37 +406,91 @@ class Review(models.Model):
 
 
 class Wishlist(models.Model):
-    product = models.ForeignKey(
-        Product, verbose_name="Wishlist Product", on_delete=models.CASCADE)
     user = models.OneToOneField(
-        CustomUser, related_name='wishlist', on_delete=models.CASCADE)
+        get_user_model(), related_name='wishlist', on_delete=models.CASCADE)
 
     class Meta:
         verbose_name = 'User Wishlist'
-        unique_together = ('product', 'user')
+
+    def __str__(self):
+        return f"{self.user.email} Wishlist-{self.pk}"
+
+
+class WishlistItem(models.Model):
+    product = models.ForeignKey(
+        Product, verbose_name="Wishlist Product", on_delete=models.CASCADE, related_name='wishlistitem')
+    wishlist = models.ForeignKey(
+        Wishlist, on_delete=models.CASCADE, related_name='wishlist_items')
+
+    class Meta:
+        verbose_name = 'Wishlist Item'
+        unique_together = ('product', 'wishlist')
+
+    def __str__(self) -> str:
+        return f"{self.wishlist.user.email}-{self.product.name}"
 
 
 class Cart(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid4)
     user = models.OneToOneField(
-        CustomUser, related_name='cart', on_delete=models.CASCADE)
+        get_user_model(), related_name='cart', on_delete=models.CASCADE, unique=True)
     created_at = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.id} - {self.user.email}"
 
 
 class CartItem(models.Model):
     cart = models.ForeignKey(
         Cart, on_delete=models.CASCADE, related_name='cart_items')
-    product = models.ForeignKey(ProductInventory, on_delete=models.CASCADE)
-    quantity = models.PositiveBigIntegerField(default=0)
+    product_inventory = models.ForeignKey(
+        ProductInventory, on_delete=models.CASCADE, related_name='cart_items')
+    quantity = models.PositiveBigIntegerField(default=1)
+    unit_price = models.DecimalField(
+        max_digits=7,
+        decimal_places=2,
+        default=0.00,
+        verbose_name='Cart unit price',
+        help_text="format: required, max_digits=5, decimal_places=2",
+        error_messages={
+            'max_digits': 'Retail price must be less than 999.99',
+        }
+
+    )
+    attribute_values = models.ManyToManyField(
+        ProductAttributeValue,
+        verbose_name='Cart Item Attributes',
+        related_name='cart_item_attributes'
+
+    )
+
+    # ? the flow is for user to give the selected inventory with attributes
 
     class Meta:
         # ! unique together making sure there is only one instance of a product in a cart
         # ? there can be one cart with multiple products(unique products)
-        unique_together = [['cart', 'product']]
+        # ? the order matters here
+
+        ordering = ['-id']
+
+    def __str__(self):
+        return f"{self.product_inventory.product.name} x {self.quantity}: GHS {self.unit_price}"
 
 
 class Order(models.Model):
-    ORDER_STATUS_CHOICES = (
+
+    id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
+    user = models.ForeignKey(
+        get_user_model(), related_name='orders', on_delete=models.SET_NULL, null=True)
+    created_at = models.DateField(auto_now_add=True)
+    updated_at = models.DateField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.id}"
+
+
+class OrderItem(models.Model):
+    ORDER_ITEM_STATUS_CHOICES = (
         ('pending', 'Pending'),
         ('processing', 'Processing'),
         ('shipped', 'shipped'),
@@ -395,24 +498,24 @@ class Order(models.Model):
         ('cancelled', 'Cancelled'),
 
     )
-    id = models.UUIDField(primary_key=True, default=uuid4)
-    user = models.ForeignKey(
-        CustomUser, related_name='order', on_delete=models.CASCADE, null=True, blank=True)
-    created_at = models.DateField(auto_now_add=True)
-    updated_at = models.DateField(auto_now=True)
-    status = models.CharField(
-        choices=ORDER_STATUS_CHOICES, default='pending', max_length=25)
-
-    def __str__(self):
-        return f"{self.id} - {self.status}"
-
-
-class OrderItem(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
     order = models.ForeignKey(
         Order, on_delete=models.CASCADE, related_name='order_items')
-    product = models.ForeignKey(ProductInventory, on_delete=models.CASCADE)
+    product = models.ForeignKey(
+        ProductInventory, on_delete=models.SET_NULL, null=True)
+    status = models.CharField(
+        choices=ORDER_ITEM_STATUS_CHOICES,
+        max_length=25,
+        default='pending'
+    )
+    attribute_values = models.ManyToManyField(
+        ProductAttributeValue,
+        verbose_name='Order Item Attributes',
+        related_name='order_item_attributes',
+    )
     quantity = models.PositiveBigIntegerField(default=0)
-    unit_price = models.DecimalField(decimal_places=2, default=0.00, max_digits=5)
+    unit_price = models.DecimalField(
+        decimal_places=2, default=0.00, max_digits=7)
 
     def __str__(self):
         return f"{self.product.name} x {self.quantity}"

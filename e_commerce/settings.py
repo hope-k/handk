@@ -10,8 +10,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+from datetime import timedelta
 from pathlib import Path
 from decouple import config
+import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,19 +34,24 @@ SITE_ID = 1
 
 
 # ! AUTH User Model
-AUTH_USER_MODEL = 'custom_user.CustomUser'
+AUTH_USER_MODEL = 'users.User'
+GOOGLE_CLIENT_ID = '907966334208-7im7l5b521b3ds43j1t6e0tfe0ip966g.apps.googleusercontent.com'
+SOCIAL_AUTH_SECRET_KEY = '907966334208-7im7l5b521b3ds43j1t6e0tfe0ip966g.apps.googleusercontent.com'
+
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
     'guardian.backends.ObjectPermissionBackend',
+
+
 ]
 
 # ! Rest Framework Settings
 REST_FRAMEWORK = {
     "EXCEPTION_HANDLER": "drf_standardized_errors.handler.exception_handler",
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 20,
+    'PAGE_SIZE': 8,
     'DEFAULT_FILTER_BACKENDS': [
         'django_filters.rest_framework.DjangoFilterBackend'
     ],
@@ -52,43 +60,41 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
         'dj_rest_auth.jwt_auth.JWTCookieAuthentication',
 
     ),
-
-
-
 }
+
 
 # ! Necessary for dj_rest_auth to work
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # ! CORS
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    'http://127.0.0.1:3000',
-    'http://localhost:8000',
-    'http://127.0.0.1:8000'
+    "http://localhost:3000"
 ]
 CORS_ALLOW_CREDENTIALS = True
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000']
 
+REST_USE_JWT = True
 
 # ! REST AUTH Settings
 REST_AUTH = {
-    'SESSION_LOGIN': False,
+    'SESSION_LOGIN': True,
     'USE_JWT': True,
     'JWT_AUTH_COOKIE': 'auth',
     'JWT_AUTH_HTTPONLY': False,
-    'REGISTER_SERIALIZER': 'custom_user.serializers.CustomRegisterSerializer',
-    'LOGIN_SERIALIZER': 'custom_user.serializers.CustomLoginSerializer',
-    'USER_DETAILS_SERIALIZER': 'custom_user.serializers.UserSerializer',
+    'REGISTER_SERIALIZER': 'users.serializers.CustomRegisterSerializer',
+    'LOGIN_SERIALIZER': 'users.serializers.CustomLoginSerializer',
+    'USER_DETAILS_SERIALIZER': 'users.serializers.UserSerializer',
     'JWT_AUTH_COOKIE_ENFORCE_CSRF_ON_UNAUTHENTICATED': False,
     'JWT_AUTH_COOKIE_USE_CSRF': False,
 
 }
-
-REST_USE_JWT = True
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(days=7),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=30),
+}
 
 
 ACCOUNT_EMAIL_REQUIRED = True
@@ -106,7 +112,6 @@ CLOUDINARY_STORAGE = {
 }
 
 # ! Drf yasg settings
-
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'Access Token': {
@@ -114,7 +119,6 @@ SWAGGER_SETTINGS = {
             'name': 'Authorization',
             'in': 'header'
         }
-
     },
     'USE_SESSION_AUTH': False,
 
@@ -146,10 +150,10 @@ INSTALLED_APPS = [
     "drf_standardized_errors",
     "drf_spectacular",
     'django_filters',
-    'dj_rest_auth',
+    'social_auth',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount',
+    'dj_rest_auth',
     'dj_rest_auth.registration',
     'rest_framework.authtoken',
     'cloudinary',
@@ -164,10 +168,8 @@ INSTALLED_APPS = [
     # ! Internal Apps
     'inventory',
     'seeder',
-    'search',
-    'custom_user',
+    'users',
     'user_product_interaction',
-    
 
 ]
 
@@ -181,7 +183,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "corsheaders.middleware.CorsMiddleware",
-
 ]
 
 ROOT_URLCONF = 'e_commerce.urls'
@@ -209,11 +210,19 @@ WSGI_APPLICATION = 'e_commerce.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
+    # 'default': dj_database_url.parse(
+    #    config('PG_URL'),
+    #    engine='django.db.backends.postgresql_psycopg2',
+    #    conn_max_age=600,
+    #    conn_health_checks=True
+
+    # ),
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
 
     }
+
 }
 
 

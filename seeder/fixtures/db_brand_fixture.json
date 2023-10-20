@@ -281,13 +281,3 @@
     }
 ]
 
-{
-    "model":"user_product_interaction.userproductinteraction",
-    "pk":1,
-    "fields":{
-        "user":1,
-        "product":1,
-        "duration":1,
-        
-    }
-}

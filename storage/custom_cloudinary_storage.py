@@ -24,10 +24,6 @@ class CustomStorage(MediaCloudinaryStorage):
             'quality': 'auto',
             'fetch_format': 'jpg',
             'secure': True,
-
-
-
-
         }
         folder = os.path.dirname(name)
         if folder:

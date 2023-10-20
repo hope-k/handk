@@ -3,40 +3,36 @@
         "model": "inventory.productattribute",
         "id": "1",
         "fields": {
-            "name": "weight",
-            "description": "weight of item"
+            "name": "weight"
         }
     },
     {
         "model": "inventory.productattribute",
         "id": "2",
         "fields": {
-            "name": "color",
-            "description": "color of item"
+            "name": "color"
+            
         }
     },
     {
         "model": "inventory.productattribute",
         "id": "3",
         "fields": {
-            "name": "size",
-            "description": "size of item"
+            "name": "size"
         }
     },
     {
         "model": "inventory.productattribute",
         "id": "4",
         "fields": {
-            "name": "dimensions",
-            "description": "dimensions of item"
+            "name": "dimensions"
         }
     },
     {
         "model": "inventory.productattribute",
         "id": "5",
         "fields": {
-            "name": "material",
-            "description": "material of item"
+            "name": "material"
         }
     }
 

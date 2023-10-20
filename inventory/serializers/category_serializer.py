@@ -16,7 +16,7 @@ class CategorySerializer(serializers.ModelSerializer):
         ]
         depth = 1
 
-    def get_children(self, obj):
-        children = obj.get_children()
+    def get_children(self, category):
+        children = category.get_children()
         serializer = CategorySerializer(children, many=True)
         return serializer.data
